@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans serif;
+}
+.mother {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  width: 27%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 40px;
+  line-height: 30px;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.167);
+}
+h2 {
+  font-weight: 700;
+}
+.signin-form {
+  text-align: center;
+  line-height: 10px;
+}
+.form {
+  width: 110%;
+  margin-bottom: 15px;
+}
+hr {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+select {
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 30%;
+  margin-bottom: 15px;
+}
+input {
+  height: 13px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(150, 148, 148);
+}
+
+.genders {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 22px;
+}
+
+.male,
+.female,
+.other {
+  border: 2px solid rgba(0, 0, 0, 0.167);
+  padding: 5px 15px;
+  display: flex;
+  gap: 20px;
+  width: 20%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#number,
+#password {
+  width: 93%;
+  margin-bottom: 10px;
+}
+.disc {
+  line-height: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.disc a {
+  text-decoration: none;
+  color: rgb(11, 47, 165);
+}
+.acct {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.acct a {
+  text-decoration: none;
+  color: rgb(11, 47, 165);
+}
+button {
+  background-color: rgb(2, 205, 60);
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #13a45b;
+}
